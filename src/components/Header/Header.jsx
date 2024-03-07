@@ -1,6 +1,7 @@
 import "../../assets/sass/layout/_header.scss";
 import Navigation from "../nav/nav";
 import About from "../About/about";
+import Feature from "../Feature/Feature";
 function Header() {
 
   return (
@@ -21,6 +22,7 @@ function Header() {
       </div>
     </header>
     <About/>
+    <Feature/>
     </div>
   );
 }

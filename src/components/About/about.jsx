@@ -1,43 +1,44 @@
+"use client"
 import React from "react";
-import "../../assets/sass/components/_card.scss";
-import "../../assets/sass/layout/_grid.scss";
-import "../../assets/sass/layout/_composition.scss";
-// import image from "../../../public/nat5.jpg";
-// import image1 from "../../../public/nat-6.jpg";
-// import image2 from "../../../public/nat-7.jpg";
-function About() {
- 
+import { Typography, Button } from "@material-ui/core";
+import "../../assets/sass/main.scss";
+import { ArrowForward } from "@material-ui/icons";
 
+
+function About() {
   return (
     <section className="section-about">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-      Insights Beyond Borders: Navigate the World's Stories
-        </h2>
+        <Typography variant="h2" className="heading-secondary">
+          Insights Beyond Borders: Navigate the World's Stories
+        </Typography>
       </div>
 
       <div className="row">
         <div className="col-1-of-2">
-          <h3 className="heading-tertiary u-margin-bottom-small">
+          <Typography variant="h3" className="heading-tertiary u-margin-bottom-small">
             Tech News
-          </h3>
-          <p className="paragraph">
-           Covering the latest developments in the tech industry, including product launches, mergers and acquisitions, and company news.
-          </p>
+          </Typography>
+          <Typography variant="body" className="paragraph">
+            Covering the latest developments in the tech industry, including product launches, mergers and acquisitions, and company news.
+          </Typography>
 
-          <h3 className="heading-tertiary u-margin-bottom-small">
+          <Typography variant="h3" className="heading-tertiary u-margin-bottom-small">
             Events and Conferences
-          </h3>
-          <p className="paragraph">
-           Coverage of major tech events, conferences, and expos, including keynote speeches, product announcements, and panel discussions.
-          </p>
+          </Typography>
+          <Typography variant="body" className="paragraph">
+            Coverage of major tech events, conferences, and expos, including keynote speeches, product announcements, and panel discussions.
+          </Typography>
 
-          <a href="#" className="btn-text">
-            Learn more &rarr;
-          </a>
+          <Button href="#" className="btn-text">
+            Learn more
+            {/* You can add icons if needed */}
+            <ArrowForward />
+          </Button>
         </div>
         <div className="col-1-of-2">
           <div className="composition">
+            {/* You can use Material-UI Image component or simply use img tag */}
             <img
               src="/img-1.png"
               alt="Logo"
