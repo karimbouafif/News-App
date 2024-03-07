@@ -1,18 +1,15 @@
 import "../../assets/sass/layout/_header.scss";
-import logo from "../../assets/images/newslogo.png";
 import Navigation from "../nav/nav";
 import About from "../About/about";
 function Header() {
-
-console.log(logo.default);
 
   return (
     <div>
       <Navigation/>
     <header className="header">
-      <div className="header__logo-box">
-        <img src={logo} alt="Logo" className="header__logo" />
-      </div>
+      {/* <div className="header__logo-box">
+        <img alt="logo" className="header__logo" />
+      </div> */}
 
       <div className="header__text-box">
         <h1 className="heading-primary">

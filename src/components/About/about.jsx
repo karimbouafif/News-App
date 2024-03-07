@@ -2,8 +2,9 @@ import React from "react";
 import "../../assets/sass/components/_card.scss";
 import "../../assets/sass/layout/_grid.scss";
 import "../../assets/sass/layout/_composition.scss";
-import logo from "../../assets/images/newslogo.png";
-
+// import image from "../../../public/nat5.jpg";
+// import image1 from "../../../public/nat-6.jpg";
+// import image2 from "../../../public/nat-7.jpg";
 function About() {
  
 
@@ -11,27 +12,24 @@ function About() {
     <section className="section-about">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
-          Exciting tours for adventurous people
+      Insights Beyond Borders: Navigate the World's Stories
         </h2>
       </div>
 
       <div className="row">
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">
-            You're going to fall in love with nature
+            Tech News
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-            quam nisi exercitationem omnis earum qui.
+           Covering the latest developments in the tech industry, including product launches, mergers and acquisitions, and company news.
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Live adventures like you never have before
+            Events and Conferences
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            nulla deserunt voluptatum nam.
+           Coverage of major tech events, conferences, and expos, including keynote speeches, product announcements, and panel discussions.
           </p>
 
           <a href="#" className="btn-text">
@@ -41,17 +39,17 @@ function About() {
         <div className="col-1-of-2">
           <div className="composition">
             <img
-              src="../../assets/images/nat-5.jpg"
+              src="/img-1.png"
               alt="Logo"
               className="composition__photo composition__photo--p1"
             />
             <img
-              src="../../images/nat-6.jpg"
+              src="/img-2.png"
               alt="Photo 2"
               className="composition__photo composition__photo--p2"
             />
             <img
-              src="../../images/nat-7.jpg"
+              src="/img-3.png"
               alt="Photo 3"
               className="composition__photo composition__photo--p3"
             />
